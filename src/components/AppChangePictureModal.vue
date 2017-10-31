@@ -1,5 +1,5 @@
 <template>
-  <div class="c-AppModal">
+  <div class="c-AppChangePictureModal">
     <div class="reveal-overlay is-active">
       <div class="tiny reveal">
         <picture-input 
@@ -70,7 +70,7 @@ export default {
 </script>
 
 <style lang="scss">
-.c-AppModal {
+.c-AppChangePictureModal {
 
   .reveal-overlay.is-active {
     display: flex;
