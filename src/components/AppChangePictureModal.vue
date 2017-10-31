@@ -14,7 +14,7 @@
           :removable="false"
           :customStrings="{
             upload: '<h1>Bummer!</h1>',
-            drag: 'Drag a Image'
+            drag: 'Drag or upload an Image'
           }">
         </picture-input> 
         <div class="update-button-container" v-if="updateButtonOnPictureLoad">

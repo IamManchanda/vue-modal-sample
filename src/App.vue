@@ -6,7 +6,7 @@
       </div>
     </div>
      <transition>
-      <app-change-picture-modal v-if="showChangePictureModal" @close="removeChangePicture"></app-change-picture-modal>
+      <app-change-picture-modal v-if="showChangePictureModal" @close="removeChangePictureModal"></app-change-picture-modal>
     </transition>
   </div>
 </template>
@@ -28,7 +28,7 @@ export default {
     changePicture() {
       this.showChangePictureModal = true;
     },
-    removeChangePicture() {
+    removeChangePictureModal() {
       this.showChangePictureModal = false;
     }
   }
