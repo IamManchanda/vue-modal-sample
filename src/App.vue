@@ -6,18 +6,18 @@
       </div>
     </div>
      <transition>
-      <app-modal v-if="showChangePictureModal" @close="removeChangePicture"></app-modal>
+      <app-change-picture-modal v-if="showChangePictureModal" @close="removeChangePicture"></app-change-picture-modal>
     </transition>
   </div>
 </template>
 
 <script>
-import AppModal from './components/AppModal.vue';
+import AppChangePictureModal from './components/AppChangePictureModal.vue';
 
 export default {
   name: 'app',
   components: {
-    'app-modal': AppModal,
+    'app-change-picture-modal': AppChangePictureModal,
   },
   data() {
     return {
