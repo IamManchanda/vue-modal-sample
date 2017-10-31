@@ -80,8 +80,11 @@ export default {
 
     .reveal {
       display: block;
-      transform: translateY(-50%);
 
+      @media screen and (min-width: 40em) {
+        transform: translateY(-50%);
+      }
+      
       // TODO: Add them with foundation sass breakpoint on actual project
       padding-top: 2rem;
       padding-bottom: 2rem;
