@@ -1,4 +1,4 @@
-# Vue.js Modal
+# Vue.js Modal with Vue Picture Input
 
 ## Build Setup
 
