@@ -47,7 +47,6 @@ export default {
       this.$emit('close');
     },
     onChange() {
-      console.log('New picture selected!')
       if (this.$refs.pictureInput.image) {
         this.updateButtonOnPictureLoad = true;
       }
